@@ -1,0 +1,19 @@
+$layout-breakpoint-medium: 768px;
+$layout-breakpoint-small: 600px;
+$layout-breakpoint-large: 992px;
+
+@media (min-width: $layout-breakpoint-small) {
+  #app {
+    width: 90vw !important;
+  }
+}
+@media (min-width: $layout-breakpoint-medium) {
+  #app {
+    width: 55vw !important;
+  }
+}
+@media (min-width: $layout-breakpoint-large) {
+  #app {
+    width: 40vw !important;
+  }
+}
